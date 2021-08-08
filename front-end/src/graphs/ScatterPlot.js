@@ -25,14 +25,14 @@ const ScatterPlot = ({ data, xAxisAttribute, yAxisAttribute }) => {
     type: 'scatter',
     marker: {
       size: 12,
-      color: 'rgba(90, 201, 203, 0.5)',
+      color: 'rgba(190, 53, 110, 0.5)',
     },
     hovertemplate:
       '<b>Noise Value</b>: %{y}' +
       '<br><b>Day</b>: %{x}<br>' +
       '<extra></extra>',
   }
-
+  //accessibility
   var data = [datapoints]
 
   let layout = {
@@ -51,7 +51,7 @@ const ScatterPlot = ({ data, xAxisAttribute, yAxisAttribute }) => {
     line: {
       width: 0,
     },
-    title: 'Scatter Plot Graph',
+    title: 'Scatter Plot of Noise Level data',
     hoverlabel: { bgcolor: '#FFF' },
   }
 

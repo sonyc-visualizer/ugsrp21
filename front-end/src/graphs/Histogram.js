@@ -35,7 +35,7 @@ const Histogram = ({ data, xAxisAttribute, title }) => {
           x: xData,
           type: 'histogram',
           marker: {
-            color: 'rgba(255, 100, 102, 0.7)',
+            color: 'rgba(67, 174, 41, 0.7)',
             line: {
               color: 'rgba(255, 100, 102, 1)',
               width: 1,
