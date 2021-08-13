@@ -16,12 +16,12 @@ const Histogram = ({ data, xAxisAttribute, title }) => {
     // },
     title: title || 'Untitled',
     xaxis: { title: xAxisAttribute },
-    yaxis: { title: 'Count' }
+    yaxis: { title: 'Count' },
   }
 
   let xData = data.map((d) => {
     if (d[xAxisAttribute] === undefined || d[xAxisAttribute] === 'NULL') {
-      return 'UNKOWN'
+      return ''
     }
     return d[xAxisAttribute]
   })
@@ -39,11 +39,11 @@ const Histogram = ({ data, xAxisAttribute, title }) => {
             color: 'rgba(67, 174, 41, 0.7)',
             line: {
               color: 'rgba(255, 100, 102, 1)',
-              width: 1
-            }
+              width: 1,
+            },
           },
-          histnorm: 'count'
-        }
+          histnorm: 'count',
+        },
       ]}
       layout={layout}
     />

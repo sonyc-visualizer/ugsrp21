@@ -4,9 +4,11 @@
 }
 /* Handle */
 
-.home-graphs {
-  margin-top: 12em;
+.graphs-block {
+  
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -76,16 +78,18 @@
 }
 .graph-wrapper{
   text-align: center;
+  margin-bottom: 50%;
+  
 }
 .wrap-img1{
-  float: left;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
+  width: 30%
   
 }
 
 .wrap-img2{
-  float: left;
-  margin-right: 10%;
-  margin-left: 10%;
+ margin-left: 8%;
+ margin-right: 8%;
+  width: 30%
 }

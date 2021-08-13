@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import poster from '../images/poster.png'
+import granular from '../images/granular.png'
+
 import './AboutUgsrp.css'
 
 function AboutUgsrp() {
@@ -16,31 +18,26 @@ function AboutUgsrp() {
           <p className="full-text">
             <br />
             <br />
-            Taking aim at New Yorkers’ biggest civic complaint – noise – a team
-            of scientists from NYU, working with collaborators at Ohio State
-            University, have launched a first-of-its-kind comprehensive research
-            initiative to understand and address noise pollution in New York and
-            beyond. The SONYC project – which involves large-scale noise
-            monitoring – leverages the latest in machine learning technology,
-            big data analysis, and citizen science reporting to more effectively
-            monitor, analyze, and mitigate urban noise pollution. Known as
-            Sounds of New York City (SONYC), this multi-year project has
-            received a $4.6 million grant from the National Science Foundation
-            and has the support of City health and environmental agencies. Lean
-            more here.
+            Each summer, members of the Tandon School of Engineering faculty
+            open up their labs to allow NYU Tandon, NYU Dual Degree Program in
+            Engineering (CAS/Tandon), NYU Abu Dhabi, NYU Shanghai, and select
+            non-NYU rising sophomore, junior, and senior undergraduate students
+            to complete 10 weeks of hands-on research. <br />
+            Students work in the labs with their faculty mentors and other
+            mentors on various research topics while also participating in
+            seminars presented by distinguished administrative and academic
+            personnel. In addition, research presentations and poster sessions
+            are held in which students have the opportunity to present their
+            research to peoples of all disciplines and backgrounds.
           </p>
           <br />
         </div>
         <br /> <br />
         <div className="block">
           <h4 className="gif-text">
-            Undergraduate Summer Research Program 2021{' '}
+            Undergraduate Summer Research Program Poster{' '}
           </h4>
-          <p className="full-text">
-            {' '}
-            We plan to achieve these objectives by implementing SONYC (Sounds of
-            New York City), the novel cyber-physical system depicted above. This
-          </p>
+          <p className="full-text"> </p>
           <br />
           <img src={poster} alt="poster gif" className="gif-img" />
         </div>

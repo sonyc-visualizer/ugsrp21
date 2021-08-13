@@ -6,7 +6,7 @@ import lit2 from '../images/lit2.png'
 import lit3 from '../images/lit3.png'
 import lit4 from '../images/lit4.png'
 import lit5 from '../images/lit5.png'
-
+import granular from '../images/granular.png'
 import './DataVisualization.css'
 import Collapsible from 'react-collapsible'
 
@@ -269,7 +269,10 @@ function DataVisualization() {
             goals of achieving high performance and interactivity. One solution
             lies in intelligently aggregating the data to higher granularities,
             so that the number of data points to be visualized is reduced and is
-            easier for the user to interpret. Insert image below.
+            easier for the user to interpret - view an illustration of granular
+            visualization below. <br />
+            <br />
+            <img src={granular} alt="poster gif" className="vis-img" />
             <br />
             <br />
             Moreover, visualizing the longitudinal data such as noise or air

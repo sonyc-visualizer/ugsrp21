@@ -4,17 +4,9 @@ import Plot from 'react-plotly.js'
 function BoxPlot({ data, xAxisAttribute, yAxisAttribute, title }) {
   let layout = {
     autosize: true,
-    // width: 500,
-    // height: 500,
-    // margin: {
-    //   l: 50,
-    //   r: 50,
-    //   b: 100,
-    //   t: 100,
-    //   pad: 6,
-    // },
+
     title: title || 'Untitled',
-    yaxis: { title: yAxisAttribute }
+    yaxis: { title: yAxisAttribute },
   }
 
   let xKeys = data.map((d) => d[xAxisAttribute]).filter(onlyUnique)
@@ -31,7 +23,7 @@ function BoxPlot({ data, xAxisAttribute, yAxisAttribute, title }) {
       boxpoints: 'all',
       jitter: 0.3,
       pointpos: -1.8,
-      type: 'box'
+      type: 'box',
     }
   })
 

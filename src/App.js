@@ -10,6 +10,8 @@ import Modal from 'react-modal'
 import AllShows from './pages/AllShows'
 import AboutUgsrp from './pages/AboutUgsrp'
 import VisualizerMenu from './graphs/VisualizerMenu'
+import VisualizerAQ from './graphs/VisualizerAQ'
+import VisualizerNQ from './graphs/VisualizerNQ'
 
 require('dotenv').config()
 
@@ -63,6 +65,12 @@ const App = () => {
             </Route>
             <Route path="/visualizer">
               <VisualizerMenu />
+            </Route>
+            <Route path="/visualizer-aq">
+              <VisualizerAQ />
+            </Route>
+            <Route path="/visualizer-nq">
+              <VisualizerNQ />
             </Route>
 
             <Route path="/">
