@@ -1,0 +1,76 @@
+/* width */
+.graph-wrapper{
+  text-align: center;
+}
+/* Handle */
+
+.home-graphs {
+  margin-top: 12em;
+  text-align: center;
+}
+
+
+.x-axis, .y-axis{
+  width: 20%;
+    float: left;
+}
+.x-axis{
+  margin-left: 30%;
+}
+.y-axis{
+  margin-right: 30%;
+}
+
+.graph-block{
+  padding-top: 3%
+}
+.header-text-graphs {
+  text-align: center;
+  color: rgb(131, 50, 224);
+  -webkit-text-stroke: 1px black;
+}
+
+@media screen and (max-width: 2400px) {
+  .full-text {
+    font-size: 20px;
+  }
+  .header-text-graphs {
+    font-size: 39px;
+  }
+  #label{
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .full-text {
+    font-size: 19px;
+  }
+  .header-text-graphs {
+    font-size: 37px;
+  }
+  #label{
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .full-text {
+    font-size: 17px;
+  }
+  .header-text-graphs {
+    font-size: 26px;
+  }
+  #label{
+    font-size: 19px;
+  }
+}
+
+.graph-block p{
+  padding: 10px; 
+  color: rgb(131, 50, 224)
+}
+.label{
+  color: rgb(174, 138, 214);
+  padding: 10px
+}

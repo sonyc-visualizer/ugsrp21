@@ -1,0 +1,139 @@
+h1 {
+  margin-top: 0;
+  padding: 0;
+  color: #d1cdc7;
+}
+h4 {
+  -webkit-text-stroke: 0.5px black;
+}
+.content a{
+  display: inline;
+}
+
+body {
+  color: #d1cdc7;
+  background-color: #2d2d2d;
+  margin-left: auto;
+  margin-right: auto;
+}
+#team-header {
+  color: rgb(131, 50, 224);
+  -webkit-text-stroke: 1px black;
+}
+
+.content {
+  color: #d1cdc7;
+  padding: 50px;
+  overflow: hidden;
+}
+.content img {
+  margin-right: 15px;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+.header {
+  color: #d1cdc7;
+
+  font-size: 32px;
+  text-align: center;
+}
+.content h4 {
+  font-size: 22px;
+  margin-left: 20px;
+  margin: 2px 0 0 0;
+  display: block;
+}
+.content p {
+  font-size: 16px;
+  margin-left: 15px;
+  margin: 2px 0 0 0;
+  display: block;
+}
+.content a {
+  font-size: 16px;
+  margin-left: 15px;
+  margin: 2px 0 0 0;
+  color: rgb(163, 106, 228);
+}
+
+.content a:hover {
+  color: #8d2de0;
+}
+
+@media screen and (max-width: 2400px) {
+  .header h1 {
+    font-size: 35.5px;
+  }
+
+  #contents,
+  .text h2 {
+    font-size: 33px;
+  }
+
+  .content h4 {
+    font-size: 31px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+  .content p,
+  .content a {
+    font-size: 20px;
+  }
+  .content img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header h1 {
+    font-size: 35px;
+  }
+  #contents,
+  .text h2 {
+    font-size: 28px;
+  }
+
+  .content h4 {
+    font-size: 22px;
+  }
+
+  .content p,
+  .content a {
+    font-size: 19px;
+  }
+  .content img {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .header h1 {
+    font-size: 24px;
+  }
+  #contents,
+  .text h2 {
+    font-size: 20px;
+  }
+
+  .content h4 {
+    font-size: 18px;
+  }
+
+  .content p,
+  .content a {
+    font-size: 16px;
+    display: inline;
+  }
+  .content img {
+    width: 100px;
+    height: 100px;
+  }
+  .header {
+    margin-top: 3%;
+  }
+}
