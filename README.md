@@ -1,14 +1,14 @@
 # SONYC Visualizer App
 
-# About SONYC
+## About SONYC
 
-# Data Visualization Research
+## Data Visualization Research
 
-# Data Collection and Analysis
+## Data Collection and Analysis
 
-# Selected Graphs
+## Selected Graphs
 
-# Visualizer App
+## Visualizer App
 
 
 
