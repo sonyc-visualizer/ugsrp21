@@ -1,6 +1,6 @@
 {
+  "homepage": "https://sonyc-visualizer.github.io/ugsrp21",
   "name": "front-end",
-  "homepage": "https://sonyc-visualizer.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
